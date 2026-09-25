@@ -28,6 +28,13 @@ being silent.
 - Luanti 5.10 or newer (`min_minetest_version = 5.10`)
 - No hard dependencies; the mod detects what is available at startup
 
+## Mod Menu integration
+
+When the optional `mod_menu` mod is installed, Atmospheric Sounds exposes
+settings tabs for general behavior, engine tuning, dimensions, regions,
+categories, and individual sound layers. Without Mod Menu, the regular Luanti
+settings from `settingtypes.txt` remain available.
+
 ## Licensing And Credits
 
 - Original project: [AmbientSounds](https://www.curseforge.com/minecraft/mc-mods/ambientsounds) by CreativeMD (LGPL-3.0)

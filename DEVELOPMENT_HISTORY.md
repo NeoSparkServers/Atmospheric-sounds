@@ -26,3 +26,20 @@ Git tags and release pages.
 - Ran disposable-world load tests for Mineclonia and Mineclone2/VoxeLibre;
   the port loaded with zero errors.
 
+## Mod Menu integration — 2026-06-14
+
+- Added optional `mod_menu` integration with General, Engine, Dimensions,
+  Regions, Categories, and Sounds settings tabs.
+- Added settings for master/original-category/layer gains, fades, silent
+  dimensions, and loop start offsets while preserving the existing Luanti
+  settings.
+- Verified the integration both without Mod Menu and with a temporary
+  Mod Menu installation in disposable Mineclonia and Mineclone2 worlds.
+
+## Integration validation — 2026-06-15
+
+- Used Atmospheric Sounds as a real settings workload while validating the
+  Mod Menu formspec layout.
+- Confirmed fixed-label sliders, bounded settings scrolling, and the absence
+  of the old overlapping slider-label pattern.
+- No Sound Physics dependency or direct integration is present in this mod.
