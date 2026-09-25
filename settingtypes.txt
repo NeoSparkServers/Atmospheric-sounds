@@ -1,0 +1,123 @@
+ambientsounds_enabled (Enable AmbientSounds) bool true
+ambientsounds_engine (AmbientSounds engine) string basic
+ambientsounds_volume (Original volume) float 1.0 0.0 1.0
+ambientsounds_master_gain (Luanti master gain) float 0.6 0.0 2.0
+ambientsounds_use_sound_master_source (Use master sound source compatibility flag) bool false
+ambientsounds_scan_step_amount (Scan step amount compatibility value) int 100 1 10000
+ambientsounds_play_sound_with_offset (Play loop sounds with random offset) bool true
+ambientsounds_scan_radius (Environment scan radius) int 16 4 32
+ambientsounds_env_interval (Environment scan interval) float 2.0 0.5 10.0
+ambientsounds_debug (Debug logging) bool false
+
+ambientsounds_fade_volume (Fade volume step) float 0.8 0.01 10.0
+ambientsounds_fade_pitch (Fade pitch compatibility value) float 0.005 0.0 1.0
+ambientsounds_silent_dimensions (Silent dimension patterns) string
+
+ambientsounds_dimension_surface_gain (Surface dimension volume) float 1.0 0.0 1.0
+ambientsounds_dimension_cave_gain (Cave dimension volume) float 1.0 0.0 1.0
+ambientsounds_dimension_nether_gain (Nether dimension volume) float 1.0 0.0 1.0
+ambientsounds_dimension_end_gain (End dimension volume) float 1.0 0.0 1.0
+
+ambientsounds_region_beach_gain (Beach region volume) float 1.0 0.0 1.0
+ambientsounds_region_cave_gain (Cave region volume) float 1.0 0.0 1.0
+ambientsounds_region_cave_ambience_gain (Cave ambience region volume) float 1.0 0.0 1.0
+ambientsounds_region_cave_deep_dark_gain (Deep dark cave region volume) float 1.0 0.0 1.0
+ambientsounds_region_cave_lush_gain (Lush cave region volume) float 1.0 0.0 1.0
+ambientsounds_region_cold_gain (Cold region volume) float 1.0 0.0 1.0
+ambientsounds_region_cold_artic_gain (Arctic region volume) float 1.0 0.0 1.0
+ambientsounds_region_desert_gain (Desert region volume) float 1.0 0.0 1.0
+ambientsounds_region_forest_gain (Forest region volume) float 1.0 0.0 1.0
+ambientsounds_region_forest_cold_gain (Cold forest region volume) float 1.0 0.0 1.0
+ambientsounds_region_forest_roofed_gain (Roofed forest region volume) float 1.0 0.0 1.0
+ambientsounds_region_grass_gain (Grass region volume) float 1.0 0.0 1.0
+ambientsounds_region_highland_gain (Highland region volume) float 1.0 0.0 1.0
+ambientsounds_region_jungle_gain (Jungle region volume) float 1.0 0.0 1.0
+ambientsounds_region_mesa_gain (Mesa region volume) float 1.0 0.0 1.0
+ambientsounds_region_mushroom_fields_gain (Mushroom fields region volume) float 1.0 0.0 1.0
+ambientsounds_region_ocean_gain (Ocean region volume) float 1.0 0.0 1.0
+ambientsounds_region_ocean_deep_gain (Deep ocean region volume) float 1.0 0.0 1.0
+ambientsounds_region_pale_garden_gain (Pale garden region volume) float 1.0 0.0 1.0
+ambientsounds_region_plains_gain (Plains region volume) float 1.0 0.0 1.0
+ambientsounds_region_rain_gain (Rain region volume) float 1.0 0.0 1.0
+ambientsounds_region_savanna_gain (Savanna region volume) float 1.0 0.0 1.0
+ambientsounds_region_sky_gain (Sky region volume) float 1.0 0.0 1.0
+ambientsounds_region_storm_away_gain (Storm away region volume) float 1.0 0.0 1.0
+ambientsounds_region_storm_close_gain (Storm close region volume) float 1.0 0.0 1.0
+ambientsounds_region_swamp_gain (Swamp region volume) float 1.0 0.0 1.0
+ambientsounds_region_taiga_gain (Taiga region volume) float 1.0 0.0 1.0
+ambientsounds_region_underwater_gain (Underwater region volume) float 1.0 0.0 1.0
+ambientsounds_region_underworld_gain (Underworld region volume) float 1.0 0.0 1.0
+ambientsounds_region_warden_gain (Warden region volume) float 1.0 0.0 1.0
+
+ambientsounds_category_animals (Enable animal ambience) bool true
+ambientsounds_category_cave (Enable cave ambience) bool true
+ambientsounds_category_water (Enable water ambience) bool true
+ambientsounds_category_weather (Enable weather ambience) bool true
+ambientsounds_category_wind (Enable wind ambience) bool true
+ambientsounds_category_suspense (Enable dimension suspense ambience) bool true
+
+ambientsounds_original_category_animal_gain (Original animal category volume) float 1.0 0.0 1.0
+ambientsounds_original_category_bird_gain (Original bird category volume) float 1.0 0.0 1.0
+ambientsounds_original_category_bird_day_gain (Original bird day category volume) float 1.0 0.0 1.0
+ambientsounds_original_category_bird_night_gain (Original bird night category volume) float 1.0 0.0 1.0
+ambientsounds_original_category_cave_gain (Original cave category volume) float 1.0 0.0 1.0
+ambientsounds_original_category_cicadas_gain (Original cicadas category volume) float 1.0 0.0 1.0
+ambientsounds_original_category_cricket_gain (Original cricket category volume) float 1.0 0.0 1.0
+ambientsounds_original_category_cricket_day_gain (Original cricket day category volume) float 1.0 0.0 1.0
+ambientsounds_original_category_cricket_night_gain (Original cricket night category volume) float 1.0 0.0 1.0
+ambientsounds_original_category_suspense_gain (Original suspense category volume) float 1.0 0.0 1.0
+ambientsounds_original_category_weather_gain (Original weather category volume) float 1.0 0.0 1.0
+ambientsounds_original_category_wind_gain (Original wind category volume) float 1.0 0.0 1.0
+
+ambientsounds_layer_forest_day_birds_gain (Forest birds layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_taiga_huge_birds_gain (Taiga birds layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_warm_savanna_birds_gain (Warm savanna birds layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_roofed_forest_spooky_birds_gain (Roofed forest birds layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_jungle_day_birds_gain (Jungle day birds layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_jungle_night_birds_gain (Jungle night birds layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_swamp_crickets_gain (Swamp crickets layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_jungle_crickets_gain (Jungle crickets layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_jungle_night_crickets_gain (Jungle night crickets layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_field_crickets_gain (Field crickets layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_night_crickets_gain (Night crickets layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_warm_night_crickets_gain (Warm night crickets layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_cicadas_day_gain (Cicadas day layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_desert_cicadas_gain (Desert cicadas layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_night_cicadas_gain (Night cicadas layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_mushroom_cicadas_gain (Mushroom cicadas layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_beach_seagulls_long_gain (Beach long seagulls layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_mushroom_special_gain (Mushroom special layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_warden_suspense_gain (Warden suspense layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_doves_gain (Doves layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_owls_gain (Owls layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_crows_gain (Crows layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_frogs_gain (Frogs layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_cave_frogs_gain (Cave frogs layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_seagulls_gain (Seagulls layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_whales_gain (Whales layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_wolves_gain (Wolves layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_long_wolves_gain (Long wolves layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_cave_ambience_gain (Cave ambience layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_large_cave_ambience_gain (Large cave ambience layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_deep_cave_ambience_gain (Deep cave ambience layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_cave_water_gain (Cave water layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_lush_cave_gain (Lush cave layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_deep_dark_gain (Deep dark layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_underworld_cave_gain (Underworld cave layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_beach_water_gain (Beach water layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_ocean_water_gain (Ocean water layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_underwater_gain (Underwater layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_deep_underwater_gain (Deep underwater layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_rain_gain (Rain layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_storm_close_gain (Storm close layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_storm_away_gain (Storm away layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_light_wind_gain (Light wind layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_heavy_wind_gain (Heavy wind layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_howling_wind_gain (Howling wind layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_mesa_wind_gain (Mesa wind layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_arctic_wind_gain (Arctic wind layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_cold_light_wind_gain (Cold light wind layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_wind_in_leaves_gain (Wind in leaves layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_nether_suspense_gain (Nether suspense layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_end_suspense_gain (End suspense layer volume) float 1.0 0.0 1.0
+ambientsounds_layer_pale_garden_suspense_gain (Pale garden suspense layer volume) float 1.0 0.0 1.0

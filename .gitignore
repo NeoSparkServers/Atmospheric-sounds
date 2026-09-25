@@ -1,0 +1,9 @@
+# Archives
+*.zip
+*.tar.gz
+*.7z
+
+# Editor / OS noise
+*~
+*.swp
+.DS_Store

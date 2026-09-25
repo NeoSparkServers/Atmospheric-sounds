@@ -1,0 +1,9 @@
+AmbientSounds Luanti port
+
+This mod ports ambience behavior and sound assets from AmbientSounds 26.x.
+Original project: AmbientSounds by CreativeMD.
+Original license included in LICENSE: GNU Lesser General Public License v3.
+
+The source AmbientSounds-26.x directory is used as reference data only.
+Mineclonia and VoxeLibre local copies are compatibility references only and are not modified.
+
