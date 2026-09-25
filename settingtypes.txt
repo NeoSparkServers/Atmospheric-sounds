@@ -1,5 +1,5 @@
-ambientsounds_enabled (Enable AmbientSounds) bool true
-ambientsounds_engine (AmbientSounds engine) string basic
+ambientsounds_enabled (Enable Atmospheric Sounds) bool true
+ambientsounds_engine (Atmospheric Sounds engine) string basic
 ambientsounds_volume (Original volume) float 1.0 0.0 1.0
 ambientsounds_master_gain (Luanti master gain) float 0.6 0.0 2.0
 ambientsounds_use_sound_master_source (Use master sound source compatibility flag) bool false

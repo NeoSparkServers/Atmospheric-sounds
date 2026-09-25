@@ -131,7 +131,7 @@ local function send_debug_if_changed(player, state, ctx, active)
 
 	state.last_debug_signature = signature
 	core.chat_send_player(ctx.player_name,
-		"AmbientSounds debug: biome=" .. tostring(ctx.biome)
+		"Atmospheric Sounds debug: biome=" .. tostring(ctx.biome)
 		.. " dimension=" .. tostring(ctx.dimension)
 		.. " weather=" .. tostring(ctx.weather)
 		.. " tags=[" .. util.table_keys_string(ctx.tags) .. "]"
@@ -212,7 +212,7 @@ local function send_status(player_name)
 	local state = ensure_state(player_name)
 	local ctx = state.last_context
 	if not ctx then
-		core.chat_send_player(player_name, "AmbientSounds: inactive")
+		core.chat_send_player(player_name, "Atmospheric Sounds: inactive")
 		return
 	end
 	local player = core.get_player_by_name(player_name)
@@ -226,7 +226,7 @@ local function send_status(player_name)
 	table.sort(loop_ids)
 
 	core.chat_send_player(player_name,
-		"AmbientSounds: enabled=" .. tostring(AS.config.enabled and not disabled)
+		"Atmospheric Sounds: enabled=" .. tostring(AS.config.enabled and not disabled)
 		.. " debug=" .. tostring(debug)
 		.. " biome=" .. tostring(ctx.biome)
 		.. " dimension=" .. tostring(ctx.dimension)
@@ -242,7 +242,7 @@ end
 local function register_command()
 	core.register_chatcommand("ambientsounds", {
 		params = "on | off | status | debug",
-		description = "Control AmbientSounds for yourself.",
+		description = "Control Atmospheric Sounds for yourself.",
 		func = function(player_name, param)
 			local player = core.get_player_by_name(player_name)
 			if not player then
@@ -258,15 +258,15 @@ local function register_command()
 			elseif param == "on" then
 				meta:set_int("ambientsounds:disable", 0)
 				manager.update_player(player)
-				return true, "AmbientSounds enabled."
+				return true, "Atmospheric Sounds enabled."
 			elseif param == "off" then
 				meta:set_int("ambientsounds:disable", 1)
 				manager.stop_all(player_name)
-				return true, "AmbientSounds disabled."
+				return true, "Atmospheric Sounds disabled."
 			elseif param == "debug" then
 				local enabled = meta:get_int("ambientsounds:debug") ~= 1
 				meta:set_int("ambientsounds:debug", enabled and 1 or 0)
-				return true, "AmbientSounds debug " .. (enabled and "enabled." or "disabled.")
+				return true, "Atmospheric Sounds debug " .. (enabled and "enabled." or "disabled.")
 			end
 
 			return false, "Usage: /ambientsounds on | off | status | debug"

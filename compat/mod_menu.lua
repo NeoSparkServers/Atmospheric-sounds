@@ -92,7 +92,7 @@ local function reload_after_save()
 end
 
 mod_menu.register_settings("ambientsounds", {
-	title = "AmbientSounds",
+	title = "Atmospheric Sounds",
 	tabs = {
 		{
 			id = "general",
