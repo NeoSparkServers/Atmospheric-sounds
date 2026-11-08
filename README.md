@@ -85,6 +85,8 @@ not included in this repository.
   (LGPL-3.0), upstream source tree used as reference only.
 - The package cover (the logo image) serves as the ContentDB screenshot, as
   recommended for packages without visual content.
-- Sound assets: 120 bundled OGG ambience tracks (stereo, 44.1 kHz), all from
-  the upstream AmbientSounds 26.x asset set, unchanged apart from renaming
-  for Luanti positional playback.
+- Sound assets: 120 bundled OGG ambience tracks from the upstream
+  AmbientSounds 26.x asset set, re-encoded to 64 kbps for a smaller
+  download (originals: 160 kbps; three 96 kHz tracks resampled to
+  44.1 kHz), renamed for Luanti positional playback. Package size:
+  ~41 MB.
