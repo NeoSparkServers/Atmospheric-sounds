@@ -67,8 +67,10 @@ screenshots will be added to the ContentDB package page.
 
 ## Licensing And Credits
 
-- Original project: [AmbientSounds](https://www.curseforge.com/minecraft/mc-mods/ambientsounds) by CreativeMD (LGPL-3.0)
-- This port: LGPL-3.0-only, see [LICENSE](LICENSE) and [NOTICE](NOTICE)
+- Original project: [AmbientSounds by CreativeMD and contributors](https://github.com/CreativeMD/AmbientSounds); the checked upstream Fabric metadata lists CreativeMD and AriaFreeze and declares LGPL-3.0-only.
+- Luanti port contributions and original artwork: NeoSparkServers, LGPL-3.0-only. This includes both `icon.png` and `icon/Atmospheric soundsL.png`.
+- The 120 packaged sounds correspond to renamed, re-encoded upstream files. See the [per-file source map](SOUND_PROVENANCE.md) and [NOTICE](NOTICE) for the matching reference revision, verification, and limits of what is known about the recordings.
+- License texts and complete attribution: [LICENSE](LICENSE), [LGPL-3.0](LICENSES/LGPL-3.0.txt), and [GPL-3.0](LICENSES/GPL-3.0.txt).
 
 This is an unofficial port. It is not affiliated with or endorsed by
 CreativeMD. The upstream Minecraft source tree is used as reference only and is
@@ -81,12 +83,11 @@ not included in this repository.
   `media_license = "LGPL-3.0-only"`, and `ai_disclosure = "ASSISTED"`.
 - Root `icon.png` (copy of `icon/Atmospheric soundsL.png`) satisfies the
   Luanti client package icon convention.
-- `NOTICE` documents upstream attribution: AmbientSounds by CreativeMD
-  (LGPL-3.0), upstream source tree used as reference only.
+- `LICENSE`, `NOTICE`, and `SOUND_PROVENANCE.md` document upstream and
+  artwork attribution, the exact sound mapping, and provenance limitations.
 - The package cover (the logo image) serves as the ContentDB screenshot, as
   recommended for packages without visual content.
 - Sound assets: 120 bundled OGG ambience tracks from the upstream
   AmbientSounds 26.x asset set, re-encoded to 64 kbps for a smaller
   download (originals: 160 kbps; three 96 kHz tracks resampled to
-  44.1 kHz), renamed for Luanti positional playback. Package size:
-  ~41 MB.
+  44.1 kHz), renamed for Luanti. Package size: ~41 MB.

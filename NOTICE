@@ -1,9 +1,39 @@
-Atmospheric Sounds Luanti port
+Atmospheric Sounds — third-party notices and provenance
+=======================================================
 
-This mod ports ambience behavior and sound assets from AmbientSounds 26.x.
-Original project: AmbientSounds by CreativeMD.
-Original license included in LICENSE: GNU Lesser General Public License v3.
+Atmospheric Sounds is an unofficial Luanti port based on the Minecraft mod
+AmbientSounds by CreativeMD and its contributors. At the matching upstream
+reference below, the Fabric metadata lists CreativeMD and AriaFreeze as authors
+and declares LGPL-3.0-only; see the actual upstream metadata and license:
 
-The source AmbientSounds-26.x directory is used as reference data only.
-Mineclonia and VoxeLibre local copies are compatibility references only and are not modified.
+https://github.com/CreativeMD/AmbientSounds/blob/e4c8c2df10b51733652b5ac612fb9bd2f72c2326/src/main/resources/fabric.mod.json
+https://github.com/CreativeMD/AmbientSounds/blob/e4c8c2df10b51733652b5ac612fb9bd2f72c2326/LICENSE
 
+Upstream attribution applies to the original project and its material used or
+adapted by this port, including renamed sounds and any adapted code or data.
+The Lua port and its original contributions are credited to NeoSparkServers.
+The upstream Minecraft source tree is not bundled; it served as a reference.
+
+All 120 distributed OGG sound files map one-to-one to files in that upstream
+reference. All 120 files in the port's initial import match those upstream
+files byte-for-byte (SHA-256). The distributed files have since been renamed
+and re-encoded; three source files were also resampled. This reference revision
+is a verified matching comparison point, not a claim about the exact checkout
+originally used to develop the port. See SOUND_PROVENANCE.md for every filename,
+the exact source paths, and limitations of the verification.
+
+The checked upstream metadata declares LGPL-3.0-only for the project. No
+separate per-sound copyright notices or an explicit project copyright notice
+were found in the checked upstream tree. The Free Software Foundation notice in
+the license text concerns that text, not authorship of the sound recordings.
+The mapping above does not establish who originally recorded each sound or
+independently verify any earlier third-party rights. No invented per-sound
+copyright notices or claims of exclusive authorship are made here.
+
+Original artwork: `icon.png` and `icon/Atmospheric soundsL.png` were created
+by NeoSparkServers and are licensed under LGPL-3.0-only. The two files are
+byte-identical.
+
+License texts: LICENSES/LGPL-3.0.txt and LICENSES/GPL-3.0.txt; see LICENSE for
+the port's licensing statement. Mineclonia and VoxeLibre were compatibility
+references only; their local source trees are not included in this repository.
